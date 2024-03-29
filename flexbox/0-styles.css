@@ -179,7 +179,10 @@
   
   /* Grid
       ============================= */
-  
+  .row {
+    displey: flex;
+  }
+
   ul.row {
     margin: 0;
     padding: 0;
@@ -193,7 +196,6 @@
   }
   
   [class*='col-'] {
-    float: left;
     padding: 0.5rem;
   }
   
